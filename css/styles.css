@@ -538,16 +538,16 @@ border-radius: 0px 0px 4px 4px;
   padding-bottom: 100px;
   }
 }
-/* 
-.footer-container {
-  display: flex;
-  align-items: baseline; 
-} */
+
+.footer-container{
+  text-align: center;
+}
 
 @media only screen and (min-width: 768px) {
   .footer-container{
     display: flex;
     flex-wrap: wrap;
+    text-align: left;
   }
 }
 
@@ -558,10 +558,21 @@ border-radius: 0px 0px 4px 4px;
   }
 }
 
-.footer-wrapper {
-  margin-right: 120px;
+.footer-wrapper{
+margin-bottom: 72px;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-wrapper{
+    margin-right: 24px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .footer-wrapper{
+    margin-right: 120px;
+  }
+}
 .footer-logo {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -574,6 +585,18 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 16px;
 }
 
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
+
 .footer-logo-secondary {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -584,31 +607,93 @@ border-radius: 0px 0px 4px 4px;
   color: var(--main-txt--mode-light);
 }
 
-.footer-text {
-  width: 264px;
-  color: var(--main-txt--mode-light);
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
 }
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
+.footer-text {
+  text-align: left;
+  width: 268px;
+  color: var(--main-txt--mode-light);
+}
+@media only screen and (min-width: 768px) {
+  .footer-text{
+    width: 264px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .footer-text{
+    width: 264px;
+  }
+}
 .footer-second {
   margin-right: 80px;
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-title {
   margin-bottom: 16px;
   font-weight: 500;
   color: var(--primary-txt--mode-light);
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-lists {
   display: flex;
   gap: 16px;
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-item {
   width: 40px;
   height: 40px;
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-linkk {
   display: flex;
   align-items: center;
@@ -621,21 +706,61 @@ border-radius: 0px 0px 4px 4px;
   fill: var(--white-txt-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-linkk:hover,
 .footer-linkk:focus {
   background-color: #31d0aa;
   border-radius: 50%;
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-icon {
   fill: var(--svg);
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .subscription-group {
   /* display: flex; */
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-input {
   width: 264px;
   height: 40px;
@@ -647,7 +772,17 @@ border-radius: 0px 0px 4px 4px;
   color: rgba(255, 255, 255, 0.6);
   margin-right: 24px;
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-button {
   width: 165px;
   height: 40px;
@@ -666,7 +801,17 @@ border-radius: 0px 0px 4px 4px;
   background: #4d5ae5;
   border-radius: 4px;
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-button:hover,
 .footer-button:focus {
   background: #404bbf;
@@ -676,10 +821,33 @@ border-radius: 0px 0px 4px 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
 
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
 .footer-icon-button {
   fill: #ffffff;
 }
+@media only screen and (min-width: 768px) {
+   {
+    
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+   {
+    
+  }
+}
+
+
 
 /*--Страница портфолио--*/
 /* Секция фильтр */
