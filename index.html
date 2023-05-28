@@ -25,12 +25,17 @@
   </head>
   <body>
     <!--секция хедер-->
-    <!-- <header class="header">
+    <header class="header">
       <div class="header-container container">
-
-        <nav class="nav">
           <a class="logo-ferst link" href="./index.html"
             >WEB<span class="logo-secondary">STUDIO</span></a>
+
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg width="32" height="22">
+            <use href="./images/icons.svg#menu-hamburger"></use>
+          </svg>
+        </button>
+        <nav class="nav">
           <ul class="nav-list list">
             <li class="nav-item"
               ><a class="nav-link link current" href="./index.html">Studio</a></li
@@ -55,11 +60,11 @@
           </ul>
         </address>
       </div>
-    </header> -->
+    </header>
     <!--Уникальный контент-->
     <main>
       <!--Секция Герой-->
-      <!-- <section class="hero section">
+      <section class="hero section">
         <div class="hero-container container">
           <h1 class="hero-title"
             >Effective Solutions<br />
@@ -67,9 +72,9 @@
           >
           <button class="hero-button" type="button" data-modal-open>Order Service</button>
         </div>
-      </section> -->
+      </section>
       <!--Секция О нас-->
-      <!-- <section class="about section">
+      <section class="about section">
         <div class="container">
           <h2 class="visually-hidden">About us</h2>
           <ul class="about-list list">
@@ -125,7 +130,7 @@
         </div>
       </section>
 
-      <section class="work section">
+       <section class="work section">
         <div class="container">
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
@@ -138,7 +143,7 @@
             /></li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--Секция Наша команда-->
       <section class="team section">
         <div class="container">
@@ -487,7 +492,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="form-field">
+          <div class="form-field form-field-last">
             <label class="form-checkbox">
                 <input class="checkbox" type="checkbox" name="agreement" value="reading" />
                 <svg class="checkbox-icon" width="10" height="8">
@@ -503,6 +508,76 @@
         </form>
       </div>
     </div>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+        class="menu-svg-close"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="8"
+          height="8"
+        >
+          <path
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li><a href="./index.html" class="mobile-menu-link  current link">Studio</a></li>
+        <li><a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a></li>
+        <li><a href="" class="mobile-menu-link link">Contacts</a></li>
+      </ul>
+
+      <ul class="mobile-contacts-list list">
+        <li class="mobile-contacts-item-tel">
+          <a class="mobile-contacts link" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+        </li>
+        <li class="mobile-contacts-item">
+          <a class="mobile-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-socials list">
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-socials-item">
+          <a href="" class="mobile-socials-link">
+            <svg class="mobile-socials-icon" width="24" height="24">
+              <use href="./images/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+        <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="mobile-menu.js"></script>
     <script src="./modal.js"></script>
   </body>
 </html>
