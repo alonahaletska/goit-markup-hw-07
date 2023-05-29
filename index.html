@@ -27,10 +27,16 @@
     <!--секция хедер-->
     <header class="header">
       <div class="header-container container">
-          <a class="logo-ferst link" href="./index.html"
-            >WEB<span class="logo-secondary">STUDIO</span></a>
+        <a class="logo-ferst link" href="./index.html"
+          >WEB<span class="logo-secondary">STUDIO</span></a
+        >
 
-            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <button
+          type="s"
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg width="32" height="22">
             <use href="./images/icons.svg#menu-hamburger"></use>
           </svg>
@@ -130,7 +136,7 @@
         </div>
       </section>
 
-       <section class="work section">
+      <section class="work section">
         <div class="container">
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
@@ -194,11 +200,13 @@
               </div>
             </li>
             <li class="team-item">
-              <img class="team-image" 
-              srcset="./images/img5.jpg 1x, ./images\img_mob2@2x.jpg 2x"
-              src="./images/img5.jpg" 
-              alt="фото Ольга Рєпіна" 
-              width="264" />
+              <img
+                class="team-image"
+                srcset="./images/img5.jpg 1x, ./images/img_mob2@2x.jpg 2x"
+                src="./images/img5.jpg"
+                alt="фото Ольга Рєпіна"
+                width="264"
+              />
               <div class="team-info">
                 <h3 class="team-title-name">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -238,7 +246,7 @@
             <li class="team-item">
               <img
                 class="team-image"
-                srcset="./images/img6.jpg 1x, ./images\img_mob3@2x.jpg 2x"
+                srcset="./images/img6.jpg 1x, ./images/img_mob3@2x.jpg 2x"
                 src="./images/img6.jpg"
                 alt="фото Микола Тарасов"
                 width="264"
@@ -282,7 +290,7 @@
             <li class="team-item">
               <img
                 class="team-image"
-                srcset="./images/img7.jpg 1x, ./images\img_mob4@2x.jpg 2x"
+                srcset="./images/img7.jpg 1x, ./images/img_mob4@2x.jpg 2x"
                 src="./images/img7.jpg"
                 alt="фото Михайло Єрмаков"
                 width="264"
@@ -379,7 +387,7 @@
       </section>
     </main>
     <!--Секция футер-->
-     <footer class="footer">
+    <footer class="footer">
       <div class="footer-container container">
         <div class="footer-wrapper">
           <a class="footer-logo link" href="/index.html"
@@ -428,15 +436,13 @@
           <p class="footer-title">Subscribe</p>
           <form class="signup_form">
             <div class="subscription-group">
-              <label for="mail" class="footer-label">
-                <input
-                  type="email"
-                  class="footer-input"
-                  name="email"
-                  id="mail"
-                  placeholder="E-mail"
-                />
-              </label>
+              <input
+                type="email"
+                class="footer-input"
+                name="email"
+                id="mail"
+                placeholder="E-mail"
+              />
               <button type="submit" class="footer-button"
                 >Subscribe
                 <svg class="footer-icon-button" width="24" height="24">
@@ -449,7 +455,7 @@
       </div>
     </footer>
 
-     <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <form class="form">
           <button class="modal-button" type="button" data-modal-close>
@@ -501,10 +507,10 @@
           </div>
           <div class="form-field form-field-last">
             <label class="form-checkbox">
-                <input class="checkbox" type="checkbox" name="agreement" value="reading" />
-                <svg class="checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#check"></use>
-                </svg>
+              <input class="checkbox" type="checkbox" name="agreement" value="reading" />
+              <svg class="checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#check"></use>
+              </svg>
               <span class="checkbox-text"
                 >I accept the terms and conditions of the
                 <a href="" class="checkbox-link"> Privacy Policy</a>
@@ -517,9 +523,9 @@
     </div>
 
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
+      <button class="menu-toggle js-close-menu" type="submit">
         <svg
-        class="menu-svg-close"
+          class="menu-svg-close"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
           width="8"
@@ -533,9 +539,13 @@
       </button>
 
       <ul class="mobile-menu list">
-        <li><a href="./index.html" class="mobile-menu-link  current link">Studio</a></li>
-        <li><a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a></li>
-        <li><a href="" class="mobile-menu-link link">Contacts</a></li>
+        <li class="mobile-menu-item"
+          ><a href="./index.html" class="mobile-menu-link current link">Studio</a></li
+        >
+        <li class="mobile-menu-item"
+          ><a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a></li
+        >
+        <li class="mobile-menu-item"><a href="" class="mobile-menu-link link">Contacts</a></li>
       </ul>
 
       <ul class="mobile-contacts-list list">
@@ -578,7 +588,7 @@
         </li>
       </ul>
     </div>
-        <script
+    <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
