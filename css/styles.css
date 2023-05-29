@@ -134,6 +134,12 @@ img {
     0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+@media only screen and (min-width: 768px) {
+   .header{
+    padding: 0;
+  }
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -156,14 +162,10 @@ img {
 @media only screen and (min-width: 768px) {
   .logo-ferst {
     margin-right: 120px;
+    padding: 24px 0;
   }
 }
 
-/* @media only screen and (min-width: 1158px) {
-  .logo-ferst{
-    margin-right: 76px;
-  }
-} */
 
 .logo-secondary {
   color: var(--primary-txt--mode-dark);
@@ -172,7 +174,6 @@ img {
 /* НАВИГАЦИЯ */
 .nav {
   display: none;
-  /* display: flex; */
   align-items: center;
 }
 
@@ -237,6 +238,21 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-item{
+    margin-bottom: 12px;
+  }
+  .header-item:last-child{
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+   .header-item{
+    margin-bottom: 0;
   }
 }
 
@@ -1123,7 +1139,7 @@ img {
   width: 408px;
   min-height: 584px;
   padding: 24px;
-  padding-top: 0;
+  padding-top: 72px;
   background: #fcfcfc;
   /* box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);  */
   border-radius: 4px;
@@ -1168,7 +1184,6 @@ img {
 
 .form-text {
   width: 100%;
-  margin-top: 72px;
   margin-bottom: 16px;
   font-weight: 500;
   text-align: center;
