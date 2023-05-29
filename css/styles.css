@@ -954,7 +954,7 @@ img {
 }
 @media only screen and (min-width: 1158px) {
   .filter.container {
-    padding: 96px 0 120px;
+    padding: 96px 15px 150px 15px;
   }
 }
 
